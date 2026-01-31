@@ -1,0 +1,27 @@
+* {
+    color: rgb(234, 0, 255);
+    transition: 2s, ease-in, .3s;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculatorBody {
+    > div {
+        display: flex;
+        padding: 10px;
+        background-color: black;
+        > button {
+            padding: 10px;
+            flex-grow: 1;
+            margin-inline: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+        > button:hover {
+            background-color: rgb(255, 0, 0);
+            }
+    }
+}
