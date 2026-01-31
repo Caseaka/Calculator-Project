@@ -12,5 +12,9 @@ const $5 = document.getElementById("5")
 const $6 = document.getElementById("6")
 const $plurOrMinus = document.getElementById("+/-")
 const $0 = document.getElementById("0")
-const $komma = document.getElementById(",")
-const $gleich = document.getElementById("=")
+const $komma = document.getElementById(",");
+const $gleich = document.getElementById("=");
+
+function calcCopy(c) {
+    console.log(c.parent)
+}
