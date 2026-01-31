@@ -8,10 +8,23 @@ body {
     justify-content: center;
 }
 .calculatorBody {
+    display: block;
+    max-width: 50vh;
+    min-width: 40vh;
+    > .outPutDiv {
+            display: flex;
+            align-items: center;
+            justify-content:start;
+            > a {
+                padding-left: 20px;
+            }
+        }
     > div {
         display: flex;
         padding: 10px;
         background-color: black;
+        border: 2px, orange, solid;
+        
         > button {
             padding: 10px;
             flex-grow: 1;
